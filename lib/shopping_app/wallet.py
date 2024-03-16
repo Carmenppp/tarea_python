@@ -1,4 +1,5 @@
-class Wallet:
+
+class Wallet():
 
     def __init__(self, owner):
         self.set_owner(owner)

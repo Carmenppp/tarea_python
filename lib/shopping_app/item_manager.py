@@ -22,7 +22,7 @@ def show_items(self):  # Muestra el estado del inventario de tus propias instanc
     table_data = []
     for stock in _stock(self):
         table_data.append([stock['number'], stock['label']['name'], stock['label']['price'], len(stock['items'])])
-    print(tabulate(table_data, headers=["番号", "商品名", "金額", "数量"], tablefmt="grid"))    # Generar resultados en formato de tabla usando el módulo tabular
+    print(tabulate(table_data, headers=["ID", "Nombre", "Precio", "Cant"], tablefmt="grid"))    # Generar resultados en formato de tabla usando el módulo tabular
 
 def _stock(self):   # Devuelve el estado del stock de la instancia del artículo que posees。
     item_ls = self.items_list()

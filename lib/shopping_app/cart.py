@@ -1,4 +1,7 @@
-class Cart:
+
+
+class Cart():
+
     from item_manager import show_items
 
     def __init__(self, owner):

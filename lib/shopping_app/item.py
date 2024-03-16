@@ -1,4 +1,6 @@
-class Item:
+
+class Item():
+
     instances = []
 
     def __init__(self, name, price, owner=None):
