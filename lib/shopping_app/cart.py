@@ -34,7 +34,7 @@ class Cart():
                 item.set_owner(self.owner)
             print("Los items ahora tienen como owner al cliente")
 
-            self
+            self.items.clear()
          # Consejo
          # - Cartera del propietario del carrito ==> self.owner.wallet
          # - Cartera del propietario del artículo ==> item.owner.wallet
